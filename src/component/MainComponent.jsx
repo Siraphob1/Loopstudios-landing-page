@@ -1,10 +1,14 @@
-import React from 'react'
+import Section1Component from "./Section1Component"
+
+
+
 
 const MainComponent = () => {
   return (
-    <div>
-      
-    </div>
+    <main className="px-[1.5rem] py-[6rem]
+                    lg:px-[10rem] lg:py-[10rem]">
+        <Section1Component/>
+    </main>
   )
 }
 
