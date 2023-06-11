@@ -8,6 +8,9 @@
   .nav-link{
     @apply lg:px-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  font-Alata font-light
   }
+  .nav-link-menu{
+    @apply font-Josefin text-[1.2rem] uppercase py-[0.5rem]
+  }
 }
 
 *{
