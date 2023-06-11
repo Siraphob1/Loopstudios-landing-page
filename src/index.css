@@ -1,3 +1,36 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Commissioner:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=League+Spartan&family=Montserrat:wght@100&family=Nunito:wght@200&family=Outfit&family=Overpass:wght@100;300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+  @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .nav-link{
+    @apply lg:px-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  font-Alata font-light
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /* --------------------COLOR-------------------- */
+  --c-White: #ffffff;
+  --c-Black: #000000;
+  --c-Dark-Gray: #8c8c8c;
+  --c-Very-Dark-Gray: #696969;
+
+  /* --------------------FONT FAMILY-------------------- */
+  --ff-Alata:'Alata', sans-serif;
+  --ff-Josefin:'Josefin Sans', sans-serif;
+
+    /* --------------------FONT SIZE-------------------- */
+  --fs:15px;
+
+  /* --------------------FONT WEIGHT-------------------- */
+  --fw-s:300;
+  --fw-m:400;
+}
