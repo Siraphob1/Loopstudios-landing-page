@@ -6,10 +6,35 @@
 
 @layer components{
   .nav-link{
-    @apply lg:px-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  font-Alata font-light
+    @apply text-white font-Alata font-light  pb-[1rem]
+            lg:px-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center 
+            hover:cursor-pointer 
   }
   .nav-link-menu{
     @apply font-Josefin text-[1.2rem] uppercase py-[0.5rem]
+  }
+  .nav-link-footer{
+    @apply text-white font-Alata font-light py-[0.5rem]
+          lg:px-[1rem] lg:py-0 lg:items-center lg:flex lg:flex-row lg:self-center  
+  }
+  .icon-footer{
+    @apply px-[0.6rem] 
+  }
+}
+@layer utilities{
+  .nav-link{
+  position: relative;  
+  }
+  .nav-link:hover::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 1px;
+    width: 30%;
+    background: white;
+    border-bottom: 3px solid white;
   }
 }
 
