@@ -85,7 +85,12 @@ const Section2Component = () => {
                     })}
                 </div>
                 <div className="flex justify-center lg:absolute lg:top-0 lg:right-0 lg:block lg:justify-normal">
-                    <button className=" font-Alata uppercase mt-[2rem] border border-black px-[2rem] py-[0.5rem] lg:mt-0">See all</button>
+                    <button className=" font-Alata uppercase tracking-[0.4rem] mt-[2rem] border border-black px-[2.5rem] py-[0.6rem] 
+                                        lg:mt-0
+                                        hover:bg-black hover:text-white
+                                        active:bg-black active:text-white">
+                        See all
+                    </button>
                 </div>
             </div>
         </section>
