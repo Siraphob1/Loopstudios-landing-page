@@ -9,7 +9,7 @@ const MenuComponent = (props) => {
     <section className=" bg-black w-full min-h-screen   p-[2rem]">
         <div className="flex justify-between items-center">
             <img src={logo} alt="" />
-            <img src={iclose} alt="" onClick={PClickMenu}/> 
+            <img src={iclose} alt="" onClick={PClickMenu} className='hover:cursor-pointer'/> 
         </div>
         <ul className="mt-[20vh]">
                         <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>About</a></li>
