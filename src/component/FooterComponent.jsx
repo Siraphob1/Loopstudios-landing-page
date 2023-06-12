@@ -8,7 +8,7 @@ import ilogo from "../images/logo.svg";
 const FooterComponent = () => {
   return (
     <footer className="px-[1.5rem] py-[4rem] bg-black
-                      lg:px-[10rem] lg:py-[5rem]">
+                      lg:px-[10rem] lg:py-[4rem]">
       <div className="flex flex-col lg:flex-row lg:justify-between">
         <section className="flex flex-col items-center lg:items-start">
             <div className="mb-[2rem]">
