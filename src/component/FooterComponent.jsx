@@ -23,11 +23,11 @@ const FooterComponent = () => {
             </ul>
         </section>
         <section className="flex flex-col items-center lg:items-end lg:justify-between">
-            <div className="flex  my-[2rem] lg:my-0 lg:mb-[2rem]">
-              <img src={ifacebook} alt="ifacebook" className="icon-footer" />
-              <img src={itwitter} alt="itwitter" className="icon-footer" />
-              <img src={ipinterest} alt="ipinterest" className="icon-footer" />
-              <img src={iinstagram} alt="iinstagram" className="icon-footer" />
+            <div className="flex  my-[2rem] lg:my-0 ">
+              <div className="icon-footer" ><img src={ifacebook} alt="ifacebook" /></div>
+              <div className="icon-footer" ><img src={itwitter} alt="itwitter" /></div>
+              <div className="icon-footer" ><img src={ipinterest} alt="ipinterest" /></div>
+              <div className="icon-footer" ><img src={iinstagram} alt="iinstagram" /></div>
             </div>
             <div className="text-[#696969] font-Alata lg:bottom-0">
               © 2021 Loopstudios. All rights reserved.    
