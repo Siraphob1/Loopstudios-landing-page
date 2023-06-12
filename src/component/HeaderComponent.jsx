@@ -32,7 +32,7 @@ const HeaderComponent = () => {
                         <li className="nav-link"><a href="#">Support</a></li>
                     </ul>
                     <div className="flex items-center lg:hidden" onClick={ClickMenu}>
-                        <img src={ihambergur} alt="ihambergur" />
+                        <img src={ihambergur} alt="ihambergur"  className="hover:cursor-pointer" />
                     </div>
                 </section>                              
             </div>
