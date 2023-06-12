@@ -15,17 +15,19 @@
   }
   .nav-link-footer{
     @apply text-white font-Alata font-light py-[0.5rem]
-          lg:px-[1rem] lg:py-0 lg:items-center lg:flex lg:flex-row lg:self-center  
+          lg:px-[1rem] lg:pb-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  
   }
   .icon-footer{
-    @apply px-[0.6rem] 
+    @apply px-[0.6rem] lg:pb-[1rem] hover:cursor-pointer
   }
 }
 @layer utilities{
-  .nav-link{
+  .nav-link ,.nav-link-footer , .icon-footer{
   position: relative;  
   }
-  .nav-link:hover::after , .nav-link:active::after{
+  .nav-link:hover::after , .nav-link:active::after ,
+  .nav-link-footer:hover::after ,.nav-link-footer:active::after , 
+  .icon-footer:hover::after ,.icon-footer:active::after{
     content: '';
     position: absolute;
     left: 50%;
@@ -36,6 +38,10 @@
     background: white;
     border-bottom: 3px solid white;
   }
+  .icon-footer:hover::after{
+    width: 50%;
+  }
+ 
 }
 
 *{
