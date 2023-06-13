@@ -4,7 +4,7 @@ import interactive_desktop from "../images/desktop/image-interactive.jpg";
 
 const Section1Component = () => {
   return (
-    <section className=" relative ">
+    <section className=" relative " id="leader">
         <img src={interactive_desktop} alt="" className=" hidden lg:block "/>
         <img src={interactive_mobile} alt="" className=" w-full lg:hidden" />
 

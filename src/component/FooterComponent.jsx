@@ -8,18 +8,18 @@ import ilogo from "../images/logo.svg";
 const FooterComponent = () => {
   return (
     <footer className="px-[1.5rem] py-[4rem] bg-black
-                      lg:px-[10rem] lg:py-[4rem]">
+                      lg:px-[10rem] lg:py-[4rem]" id="support">
       <div className="flex flex-col lg:flex-row lg:justify-between">
         <section className="flex flex-col items-center lg:items-start">
             <div className="mb-[2rem]">
                 <img src={ilogo} alt="ilogo"/>
             </div>
             <ul className="flex flex-col lg:flex-row">
-                <li className="nav-link-footer pl-0"><a href="#">About</a></li>
-                <li className="nav-link-footer"><a href="#">Careers</a></li>
-                <li className="nav-link-footer"><a href="#">Events</a></li>
-                <li className="nav-link-footer"><a href="#">Products</a></li>
-                <li className="nav-link-footer"><a href="#">Support</a></li>
+                <li className="nav-link-footer pl-0"><a href="#leader">About</a></li>
+                <li className="nav-link-footer"><a href="#leader">Careers</a></li>
+                <li className="nav-link-footer"><a href="#creation">Events</a></li>
+                <li className="nav-link-footer"><a href="#creation">Products</a></li>
+                <li className="nav-link-footer"><a href="#support">Support</a></li>
             </ul>
         </section>
         <section className="flex flex-col items-center lg:items-end lg:justify-between">

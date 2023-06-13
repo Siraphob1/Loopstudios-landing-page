@@ -12,11 +12,11 @@ const MenuComponent = (props) => {
             <img src={iclose} alt="" onClick={PClickMenu} className='hover:cursor-pointer'/> 
         </div>
         <ul className="mt-[20vh]">
-                        <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>About</a></li>
-                        <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>Careers</a></li>
-                        <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>Events</a></li>
-                        <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>Products</a></li>
-                        <li className="nav-link-menu"><a href="#" onClick={PClickMenu}>Support</a></li>
+                        <li className="nav-link-menu"><a href="#leader" onClick={PClickMenu}>About</a></li>
+                        <li className="nav-link-menu"><a href="#leader" onClick={PClickMenu}>Careers</a></li>
+                        <li className="nav-link-menu"><a href="#creation" onClick={PClickMenu}>Events</a></li>
+                        <li className="nav-link-menu"><a href="#creation" onClick={PClickMenu}>Products</a></li>
+                        <li className="nav-link-menu"><a href="#support" onClick={PClickMenu}>Support</a></li>
         </ul>
     </section>
   )

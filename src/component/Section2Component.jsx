@@ -68,10 +68,10 @@ const Section2Component = () => {
     }
 
   return (
-        <section    className="py-[8rem] lg:py-[9rem]">
+        <section    className="py-[8rem] lg:py-[9rem]" >
             <div className="flex flex-col lg:relative ">
                 <h1 className="font-Josefin text-[2rem] text-center font-medium uppercase leading-[2rem] mb-[3rem] 
-                            lg:text-[3rem] lg:text-start lg:leading-[3rem] lg:mb-[4rem]">
+                            lg:text-[3rem] lg:text-start lg:leading-[3rem] lg:mb-[4rem]" id="creation">
                     Our creations
                 </h1>
                 
