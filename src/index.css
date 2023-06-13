@@ -13,21 +13,25 @@
   .nav-link-menu{
     @apply font-Josefin text-[1.2rem] uppercase py-[0.5rem]
   }
+  .title-section2{
+    @apply uppercase absolute bottom-[1rem] left-[1rem]  text-[1.5rem] font-Josefin leading-[1.5rem]
+            lg:bottom-[2rem] lg:left-[2rem] lg:text-[2.1rem] lg:leading-[2.1rem]
+  }
   .nav-link-footer{
-    @apply text-white font-Alata font-light py-[0.5rem]
-          lg:px-[1rem] lg:pb-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  
+    @apply text-white text-center font-Alata font-light py-[0.5rem]
+          lg:text-start lg:px-[1rem] lg:pb-[1rem] lg:items-center lg:flex lg:flex-row lg:self-center  
   }
   .icon-footer{
-    @apply px-[0.6rem] lg:pb-[1rem] hover:cursor-pointer
+    @apply px-[0.6rem] pb-[1rem] hover:cursor-pointer
   }
 }
 @layer utilities{
   .nav-link ,.nav-link-footer , .icon-footer{
   position: relative;  
   }
-  .nav-link:hover::after , .nav-link:active::after ,
-  .nav-link-footer:hover::after ,.nav-link-footer:active::after , 
-  .icon-footer:hover::after ,.icon-footer:active::after{
+  .nav-link:hover::after , 
+  .nav-link-footer:hover::after ,
+  .icon-footer:hover::after {
     content: '';
     position: absolute;
     left: 50%;
